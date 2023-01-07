@@ -17,7 +17,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.status(200).send({ message: "Hello from CodeBlock" });
+  res.status(200).send({ message: "Hello from Chatty" });
 });
 
 app.post("/", async (req, res) => {
