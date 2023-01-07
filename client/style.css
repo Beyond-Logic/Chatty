@@ -190,6 +190,6 @@ form img {
   white-space: nowrap;
 } */
 
-/* .bot_message {
- 
-} */
+.bot_message {
+  white-space: pre-wrap;
+}
